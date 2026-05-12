@@ -93,7 +93,33 @@ build/
 - Vanilla JavaScript — zero dependencies
 - Inline SVG — hand-crafted neighborhood map
 
-**To run:** Open `build/index.html` in any browser. No server needed.
+---
+
+## How to Access It
+
+### For judges / demo (right now)
+No installation needed. Three options, all free:
+
+**Option 1 — Open locally (instant):**
+Download `build/index.html` and double-click it. It opens in any browser. No internet required after load.
+
+**Option 2 — Netlify Drop (30 seconds, live URL):**
+1. Go to [app.netlify.com/drop](https://app.netlify.com/drop)
+2. Drag the `build/` folder onto the page
+3. Get a public URL like `https://silverhelpers-abc123.netlify.app` — shareable immediately, works on any phone
+
+**Option 3 — GitHub Pages (permanent, free):**
+1. Push this repo to GitHub
+2. Go to **Settings → Pages → Source: `build/` folder on `main` branch**
+3. Live at `https://yourusername.github.io/Democracy/`
+
+### For real end users (the product vision)
+Citizens would never download anything. They would:
+- **Open a URL** in their phone browser (e.g. `silverhelpers.de`)
+- Optionally **"Add to Home Screen"** — since this is built as a PWA-ready app, it installs like a native app with no App Store involved
+- Seniors in particular benefit: no download, no account creation, no payment — just open and tap
+
+> The zero-friction access model is intentional. Requiring an app store download would lose most of the 65+ audience before they ever see the interface.
 
 ---
 
